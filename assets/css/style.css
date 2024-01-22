@@ -4,16 +4,7 @@ body {
     box-sizing: border-box;
 }
 
-nav {
-    height: 50px;
-    background-color: rgb(255, 100, 0);
-
-}
-
-.main.container {
-    padding-top: 80px;
-}
-
+/* #region Utilities */
 .container {
     width: 75%;
     height: 100%;
@@ -22,12 +13,58 @@ nav {
     margin: auto;
 }
 
+/* #endregion Utilities */
+
+/* #region site_header */
+
+nav {
+    background-color: rgb(255, 100, 0);
+}
+
+.nav_container {
+    width: 75%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    padding: 0;
+    color: white;
+    font-weight: bold;
+}
 
 .nav {
-    width: 100px;
-    height: 100%;
-    border: 1px solid black;
+    
 }
+
+.logo {
+    display: flex;
+    justify-content: center;
+}
+
+.user {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    color: white;
+}
+
+/* #endregion site_header */
+
+
+.main.container {
+    padding-top: 80px;
+}
+
+
+
+
 
 .img{
     width: 450px;
