@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 75%;
+    height: 100%;
+    
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+nav {
+    height: 50px;
+    background-color: rgb(255, 100, 0);
+
+}
+
+.nav {
+    width: 100px;
+    height: 100%;
+    border: 1px solid black;
+}
