@@ -25,6 +25,44 @@ body {
 .old_price {
     text-decoration: line-through;
 }
+
+.discount {
+    background-color: red;
+    color: white;
+    text-align: center;
+    width: 50px;
+    padding: 3px 0;
+    font-weight: bold;
+    display: inline-block;
+
+}
+
+.banner {
+    position: absolute;
+    bottom: 30px;
+}
+
+.sustainability {
+    display: inline-block;
+    background-color: green;
+    color: white;
+    text-align: center;
+    padding: 3px 3px;
+    font-weight: bold;
+}
+
+.heart {
+    position: absolute;
+    right: 0;
+    top: 1rem;
+    font-size: 3rem;
+    padding: 0 15px 0 15px;
+    background-color: white;
+}
+
+.heart:hover{
+    color: red;
+}
 /* #endregion Utilities */
 
 /* #region site_header */
@@ -42,7 +80,7 @@ nav {
     align-items: center;
 }
 
-ul {
+.ul_nav {
     display: flex;
     list-style: none;
     gap: 10px;
@@ -79,41 +117,92 @@ ul {
 .product1 .img {
     background-image: url(../img/1.webp);
     background-size: contain;
+    position: relative;
 }
 
 .product2 .img {
     background-image: url(../img/2.webp);
     background-size: contain;
+    position: relative;
 }
 .product3 .img {
     background-image: url(../img/3.webp);
     background-size: contain;
+    position: relative;
 }
 .product4 .img {
     background-image: url(../img/4.webp);
     background-size: contain;
+    position: relative;
 }
 
 .product5 .img {
     background-image: url(../img/5.webp);
     background-size: contain;
+    position: relative;
 }
 .product6 .img {
     background-image: url(../img/6.webp);
     background-size: contain;
+    position: relative;
 }
+
+.product1:hover .img{
+    background-image: url(../img/1b.webp);
+}
+.product2:hover .img{
+    background-image: url(../img/2b.webp);
+}
+.product3:hover .img{
+    background-image: url(../img/3b.webp);
+}
+.product4:hover .img{
+    background-image: url(../img/4b.webp);
+}
+.product5:hover .img{
+    background-image: url(../img/5b.webp);
+}
+.product6:hover .img{
+    background-image: url(../img/6b.webp);
+}
+
+
+
+
+
 /* #endregion site_main */
 
 
 
 
 
-
-
-
 footer {
-    height: 200px;
     background-color: black;
     margin-top: 100px;
+    color: white;
 }
 
+.foot.container {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+
+.society {
+    font-size: 1.5rem;
+}
+
+.ul_footer {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    padding: 0;
+    color: white;
+}
+
+.social_icon {
+    margin-top: 0.5rem;
+    display: flex;
+    gap: 0.5rem;
+    font-size: 1.5rem;
+}
