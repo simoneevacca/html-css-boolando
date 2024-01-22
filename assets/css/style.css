@@ -13,6 +13,18 @@ body {
     margin: auto;
 }
 
+
+.price {
+    font-size: 0.8rem;
+}
+.actual_price {
+    color: red;
+    font-weight: bold;
+}
+
+.old_price {
+    text-decoration: line-through;
+}
 /* #endregion Utilities */
 
 /* #region site_header */
@@ -62,12 +74,6 @@ ul {
     width: 415px;
     height: 600px;
     background-color: red;
-}
-
-.text {
-    width: 415px;
-    height: 200px;
-    background-color: grey;
 }
 
 .product1 .img {
