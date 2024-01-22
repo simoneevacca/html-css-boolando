@@ -4,24 +4,46 @@ body {
     box-sizing: border-box;
 }
 
-.container {
-    width: 75%;
-    height: 100%;
-    
-    margin: auto;
-    display: flex;
-    justify-content: space-between;
-    
-}
-
 nav {
     height: 50px;
     background-color: rgb(255, 100, 0);
 
 }
 
+.main.container {
+    padding-top: 80px;
+}
+
+.container {
+    width: 75%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+
 .nav {
     width: 100px;
     height: 100%;
     border: 1px solid black;
+}
+
+.img{
+    width: 450px;
+    height: 600px;
+    background-color: red;
+}
+
+.text {
+    width: 450px;
+    height: 200px;
+    background-color: grey;
+}
+
+
+footer {
+    height: 200px;
+    background-color: black;
+    margin-top: 100px;
 }
