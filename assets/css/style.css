@@ -64,6 +64,21 @@ body {
 .heart:hover{
     color: red;
 }
+
+.figure {
+    position: relative;
+}
+
+.hover_fig {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+
+.figure:hover .hover_fig {
+    opacity: 1;
+}
 /* #endregion Utilities */
 
 /* #region site_header */
@@ -109,69 +124,14 @@ li .gender{
 /* #endregion site_header */
 
 /* #region site_main */
+
 .main.container {
     padding-top: 80px;
 }
 
 .img{
-    width: 415px;
-    height: 600px;
-    background-color: red;
-}
-
-.product1 .img {
-    background-image: url(../img/1.webp);
-    background-size: contain;
     position: relative;
 }
-
-.product2 .img {
-    background-image: url(../img/2.webp);
-    background-size: contain;
-    position: relative;
-}
-.product3 .img {
-    background-image: url(../img/3.webp);
-    background-size: contain;
-    position: relative;
-}
-.product4 .img {
-    background-image: url(../img/4.webp);
-    background-size: contain;
-    position: relative;
-}
-
-.product5 .img {
-    background-image: url(../img/5.webp);
-    background-size: contain;
-    position: relative;
-}
-.product6 .img {
-    background-image: url(../img/6.webp);
-    background-size: contain;
-    position: relative;
-}
-
-.product1:hover .img{
-    background-image: url(../img/1b.webp);
-}
-.product2:hover .img{
-    background-image: url(../img/2b.webp);
-}
-.product3:hover .img{
-    background-image: url(../img/3b.webp);
-}
-.product4:hover .img{
-    background-image: url(../img/4b.webp);
-}
-.product5:hover .img{
-    background-image: url(../img/5b.webp);
-}
-.product6:hover .img{
-    background-image: url(../img/6b.webp);
-}
-
-
 
 
 
@@ -221,3 +181,8 @@ li .info{
 }
 
 /* #endregion site_footer */
+
+
+
+
+
