@@ -2,6 +2,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
 }
 
 /* #region Utilities */
@@ -82,11 +83,15 @@ nav {
 
 .ul_nav {
     display: flex;
-    list-style: none;
     gap: 10px;
     padding: 0;
+    list-style: none;
+}
+
+li a{
     color: white;
     font-weight: bold;
+    text-decoration: none;
 }
 
 .logo {
