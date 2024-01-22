@@ -88,7 +88,7 @@ nav {
     list-style: none;
 }
 
-li a{
+li .gender{
     color: white;
     font-weight: bold;
     text-decoration: none;
@@ -179,7 +179,7 @@ li a{
 
 
 
-
+/* #region site_footer */
 
 footer {
     background-color: black;
@@ -195,6 +195,7 @@ footer {
 
 .society {
     font-size: 1.5rem;
+    font-weight: bold;
 }
 
 .ul_footer {
@@ -205,9 +206,18 @@ footer {
     color: white;
 }
 
+li .info{
+    color: white;
+    text-decoration: none;
+}
+
+
+
 .social_icon {
     margin-top: 0.5rem;
     display: flex;
     gap: 0.5rem;
     font-size: 1.5rem;
 }
+
+/* #endregion site_footer */
